@@ -11,4 +11,4 @@ class Carrinho {
 
 }
 
-export default Carrinho;
+module.exports = Carrinho;

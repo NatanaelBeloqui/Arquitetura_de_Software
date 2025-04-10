@@ -7,3 +7,6 @@ const FreteGratuito = require("./FreteGratuito");
 const normal = new FreteNormal();
 const expresso = new FreteExpresso();
 const gratuito = new FreteGratuito();
+
+const carrinho = new Carrinho(100, normal);
+console.log('Total com frete normal: ', carrinho.calcularTotal());

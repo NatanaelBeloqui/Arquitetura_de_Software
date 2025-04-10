@@ -1,4 +1,4 @@
-import FreteStrategy from "./FreteStrategy";
+const FreteStrategy = require("./FreteStrategy");
 
 class FreteNormal extends FreteStrategy {
 
@@ -8,4 +8,4 @@ class FreteNormal extends FreteStrategy {
 
 }
 
-export default FreteNormal;
+module.exports = FreteNormal;
