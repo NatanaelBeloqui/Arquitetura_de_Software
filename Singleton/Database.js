@@ -11,8 +11,8 @@ class Database {
     #connect() {
         // Simula conexão com o BD
         return {
-            status: 'Conectado';
-            timestamp: new Date();
+            status: 'Conectado',
+            timestamp: new Date()
         };
     }
 
