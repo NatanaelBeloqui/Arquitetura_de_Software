@@ -8,7 +8,7 @@ class Canal {
     }
 
     desinscreve(usuario) {
-        this.obsrevadores.filter((obs) => obs !== usuario);
+        this.obsrevadores = this.obsrevadores.filter((obs) => obs !== usuario);
     }
 
     notificar(conteudo) {
