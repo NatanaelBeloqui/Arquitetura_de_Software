@@ -1,15 +1,14 @@
 const PagamentoExterno = require('./PagamentoExterno');
-const IPagamentos = require('./IPagamento');
+const IPagamentos = require('./IPagamentos');
 
-class PagamentoAdapter extends IPagamentos {
-    constructor() {
+class PagamentoAdapter extends IPagamentos{
+    constructor(){
         super();
-        this.PagamentoExterno = new PagamentoExterno();
+        this.pagamentoExterno = new PagamentoExterno();
     }
 
-    pagar(valor) {
-        this.PagamentoExterno.realizarPagamento(valor);
+    pagar(valor){
+        this.pagamentoExterno.realizarPagamento(valor);
     }
 }
-
 module.exports = PagamentoAdapter;

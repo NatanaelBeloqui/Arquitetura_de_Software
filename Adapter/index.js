@@ -1,6 +1,6 @@
 const PagamentoAdapter = require('./PagamentoAdapter');
 
-// O sistemas só conhece a interface o .pagar()
+// O sistemas so conhece a interface com o .pagar()
 const pagamentos = new PagamentoAdapter();
 
 // Usa internamente a nova API
